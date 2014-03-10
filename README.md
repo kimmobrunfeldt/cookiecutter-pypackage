@@ -1,6 +1,4 @@
-======================
-cookiecutter-pypackage
-======================
+# cookiecutter-pypackage
 
 Cookiecutter template for a Python package. See https://github.com/audreyr/cookiecutter.
 
@@ -8,7 +6,7 @@ Cookiecutter template for a Python package. See https://github.com/audreyr/cooki
 * Pytest_ runner: Supports `unittest`, `pytest`, `nose` style tests and more
 * Travis-CI_: Ready for Travis Continuous integration testing
 * Tox_ testing: Setup to easily test for python 2.6, 2.7, 3.3 and PyPy_
-* Sphinx_ docs: Documentation raedy for generation with, for example, ReadTheDocs_
+* GitHub markdown as docs
 * Wheel_ support: Use the newest python package distribution standard from the get go
 
 Usage
@@ -16,13 +14,12 @@ Usage
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+    cookiecutter https://github.com/kimmobrunfeldt/cookiecutter-pypackage.git
 
 Then:
 
 * Create a repo and put it there.
 * Add the repo to your Travis CI account.
-* Add the repo to your ReadTheDocs account + turn on the ReadTheDocs service hook.
 * Run `tox` to make sure all tests pass.
 * Release your package the standard Python way.
 
@@ -31,7 +28,7 @@ Not Exactly What You Want?
 
 Don't worry, you have options:
 
-Similar Cookiecutter Templates
+Original Cookiecutter Template
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * `audreyr/cookiecutter-pypackage`_: The original pypackage, uses unittest

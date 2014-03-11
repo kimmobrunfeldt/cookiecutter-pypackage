@@ -5,7 +5,7 @@ help:
 	@echo "clean-pyc - remove Python file artifacts"
 	@echo "lint - check style with flake8"
 	@echo "test - run tests quickly with the default Python"
-	@echo "testall - run tests on every Python version with tox"
+	@echo "test-all - run tests on every Python version with tox"
 	@echo "coverage - check code coverage quickly with the default Python"
 	@echo "release - package and upload a release"
 	@echo "sdist - package"
@@ -38,7 +38,7 @@ release: clean
 	python setup.py sdist upload
 	python setup.py bdist_wheel upload
 
-sdist: clean
+dist: clean
 	python setup.py sdist
 	python setup.py bdist_wheel
 	ls -l dist

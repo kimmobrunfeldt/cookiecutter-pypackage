@@ -4,11 +4,10 @@ This is a cookiecutter fork for those who want to use markdown for documenting.
 
 Cookiecutter template for a Python package. See https://github.com/audreyr/cookiecutter.
 
-* Free software: BSD license
 * [Pytest](http://pytest.org/) runner: Supports `unittest`, `pytest`, `nose` style tests and more
 * [TravisCI](http://travis-ci.org/) Ready for Travis Continuous integration testing
 * [Tox](http://testrun.org/tox/) testing: Setup to easily test for python 2.6, 2.7, 3.3 and [PyPy](http://pypy.org/)
-* GitHub markdown as docs
+* [GitHub markdown](https://help.github.com/articles/github-flavored-markdown) as docs
 * [Wheel](http://pythonwheels.com) support: Use the newest python package distribution standard from the get go
 
 ## Usage
@@ -30,7 +29,7 @@ Don't worry, you have options:
 
 ### Original Cookiecutter Template
 
-* `audreyr/cookiecutter-pypackage`_: The original pypackage, uses unittest
+* [audreyr/cookiecutter](https://github.com/audreyr/cookiecutter): The original pypackage, uses unittest
 for testing and other minor changes.
 
 ### Fork This
@@ -44,3 +43,7 @@ whether or not to rename your fork.
 
 I also accept pull requests on this, if they're small, atomic, and if they
 make my own packaging experience better.
+
+## License
+
+BSD

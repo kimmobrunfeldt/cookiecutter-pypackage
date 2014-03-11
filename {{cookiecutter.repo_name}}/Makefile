@@ -8,7 +8,7 @@ help:
 	@echo "test-all - run tests on every Python version with tox"
 	@echo "coverage - check code coverage quickly with the default Python"
 	@echo "release - package and upload a release"
-	@echo "sdist - package"
+	@echo "dist - package"
 
 clean: clean-build clean-pyc
 
